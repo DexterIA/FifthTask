@@ -7,14 +7,7 @@ const PORT = 3005,
   url = 'mongodb://localhost:27017/FifthTask';
 
 function handleRequest (request, response) {
-  response.writeHead(200, {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'POST, GET, PUT, DELETE, OPTIONS',
-    'Access-Control-Allow-Credentials': true,
-    'Access-Control-Max-Age': '86400',
-    'Access-Control-Allow-Headers': '*'
-  });
+  response.writeHead(200, {'Content-Type': 'application/json'});
 
   // Дальше велосипед, просьба слабонервным не смотреть
   switch (request.url) {
