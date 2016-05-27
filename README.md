@@ -1,8 +1,6 @@
 
 ## Fifth task (Web-services) ##
 
---------------------------------------------------------------------------------
-
 ### Description ###
 Create a web-server for any CMS, bug tracking,
 project management or other system, using XML or
