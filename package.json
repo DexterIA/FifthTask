@@ -1,0 +1,12 @@
+{
+  "name": "FifthTask",
+  "version": "0.0.1",
+  "description": "Basic web-service, based on nodejs and use mongoDB",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/DexterIA/FifthTask.git"
+  },
+  "dependencies": {
+    "mongodb": "^2.1.18"
+  }
+}
